@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ConnectSDKWatch",
-            url: "https://dl.cloudsmith.io/QQ43WPa2Y7VlFUM3/proglove/markconnectiossdk-prod/raw/names/ConnectSDKWatch-1.2.0.xcframework/versions/1.2.0/ConnectSDKWatch-1.2.0.xcframework.zip?accept_eula=8",
-            checksum: "540b3b4b33f5b85cf3a1fd10cceffd6e1cbb70bf7c9a15dba288561ce56424cf"),
+            url: "https://dl.cloudsmith.io/QQ43WPa2Y7VlFUM3/proglove/markconnectiossdk-prod/raw/names/ConnectSDKWatch-1.3.0.xcframework/versions/1.3.0/ConnectSDKWatch-1.3.0.xcframework.zip?accept_eula=8",
+            checksum: "2306422013a011a60d8ef29a5216343db19d07ea7e26aab6312ce952dc355f40"),
         .target(
             name: "ConnectSDKWatchDependencies",
             dependencies: [
