@@ -1,6 +1,9 @@
 // swift-tools-version: 5.7
 import PackageDescription
 
+let version = "1.4.1"
+let checksum = "2c5b4e46f0dfe96885a22866d5c57f97f62b95f144d49d057dcf4b124083272d"
+
 let package = Package(
     name: "ConnectSDK",
     platforms: [
@@ -19,8 +22,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ConnectSDKWatch",
-            url: "https://dl.cloudsmith.io/QQ43WPa2Y7VlFUM3/proglove/markconnectiossdk-prod/raw/names/ConnectSDKWatch-1.3.0.xcframework/versions/1.3.0/ConnectSDKWatch-1.3.0.xcframework.zip?accept_eula=8",
-            checksum: "2306422013a011a60d8ef29a5216343db19d07ea7e26aab6312ce952dc355f40"),
+            url: "https://dl.cloudsmith.io/QQ43WPa2Y7VlFUM3/proglove/markconnectiossdk-prod/raw/names/ConnectSDKWatch-\(version).xcframework/versions/\(version)/ConnectSDKWatch-\(version).xcframework.zip?accept_eula=8",
+            checksum: checksum),
         .target(
             name: "ConnectSDKWatchDependencies",
             dependencies: [
