@@ -1,8 +1,8 @@
 // swift-tools-version: 5.7
 import PackageDescription
 
-let version = "1.4.1"
-let checksum = "2c5b4e46f0dfe96885a22866d5c57f97f62b95f144d49d057dcf4b124083272d"
+let version = "1.4.2"
+let checksum = "84c9d27ef372bb8b0fa33eeca13c56cec94da51e607544aa2d937bd35b1a8c3b"
 
 let package = Package(
     name: "ConnectSDK",
