@@ -1,8 +1,8 @@
 // swift-tools-version: 5.7
 import PackageDescription
 
-let version = "1.4.2"
-let checksum = "84c9d27ef372bb8b0fa33eeca13c56cec94da51e607544aa2d937bd35b1a8c3b"
+let version = "1.5.0"
+let checksum = "1ece71e9471c14a6cbc060b113d12236d565e7b12df9f43da85015299e51458c"
 
 let package = Package(
     name: "ConnectSDK",
@@ -15,7 +15,7 @@ let package = Package(
             targets: ["ConnectSDKWatch", "ConnectSDKWatchDependencies"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-protobuf.git", from: "1.26.0"),
+        .package(url: "https://github.com/apple/swift-protobuf.git", from: "1.33.0"),
         .package(url: "https://github.com/NordicSemiconductor/IOS-nRF-Connect-Device-Manager", .upToNextMinor(from: "1.6.0")),
         .package(url: "https://github.com/dagronf/QRCode", from: "19.0.0")
     ],
